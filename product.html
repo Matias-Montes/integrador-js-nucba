@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product -</title>
+    <link rel="stylesheet" href="/Css/home.css">
+    <link rel="stylesheet" href="/Css/product.css">
+</head>
+<body>
+    
+    <nav class="navbar"></nav>
+
+    <form class="product-details">
+        
+            
+            <input class="new-name data-input" type="text" minlength="1" maxlength="25" placeholder="nombre" required></input>
+            <div class="marca data-input">
+            <label class="new-marca" for="favoriteOnly">Selecciona la marca:</label>
+            <select name="favoriteOnly" id="favoriteOnly" required>            
+              <option>samsung</option>
+              <option>iphone</option>
+              <option>otro</option>
+            </select>
+            </div>
+            <input class="new-price data-input" type="number"  placeholder="precio" required></input>
+            <input class="new-list-price data-input" type="number" placeholder="precio lista" required></input>
+            <input class="new-desc data-input" type="text" minlength="1" maxlength="25" placeholder="descripcion" required></input>
+            <input class="new-img data-input" type="url" placeholder="imagen url">
+            <button class="btn cart-btn" hidden>agregar producto</button>
+            <button class="btn cart-btn clear">borrar nuevos</button>
+            
+        
+    </form>
+
+    <footer></footer>
+
+    <script src="/Js/nav.js"></script>
+    <script src="/Js/footer.js"></script>
+    <script src="/Js/product.js"></script>
+
+</body>
+</html>
